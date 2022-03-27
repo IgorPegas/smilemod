@@ -37,4 +37,12 @@ html, body{
     flex-grow: 1;
 }
 
+@media screen and (max-width: 479px){
+    h3{
+        display: none;
+    }
+    .track{
+        padding-bottom: 40px;
+    }
+}
 

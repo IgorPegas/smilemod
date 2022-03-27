@@ -25,6 +25,9 @@ a:hover{
     display: flex;
     justify-content: space-between;
 }
+.link{
+    width: 40%;
+}
 .blockRadio{
     width: 530px;
     height: 70px;
@@ -34,7 +37,7 @@ a:hover{
 }
 .blockRadio{
     display: flex;
-    padding-left: 10px;
+    width: 60%;
 }
 .radio_box img{
     width: 50px;
