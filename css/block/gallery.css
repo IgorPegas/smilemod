@@ -1,0 +1,14 @@
+
+
+.boxFoto{
+    display: flex;
+    position: relative;
+    top: -224px;
+}
+.empty{
+    width: 93px;
+}
+
+.boxFoto img{
+    height: 222px;
+}

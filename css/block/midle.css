@@ -1,0 +1,53 @@
+
+.boxMidle{
+    display: flex;
+    min-height: 600px;
+}
+.partners{
+    width: 40%;
+    z-index: 1;
+}
+.music{
+    width: 60%; 
+}
+.music, .partners{
+    position: relative;
+    top: -130px;
+}
+.partners img{
+    width: 140px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 0.5px #fff;
+    margin: 0 0 20px 50px;
+}
+.partners img:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 0 4px 0 rgb(182, 181, 181);
+}
+.partners img:active{
+    transform: translateY(-1px);
+    box-shadow: 0 0 2px 0 rgb(182, 181, 181);
+}
+.free_space{
+    opacity: 0.2;
+}
+h3{
+    color: blanchedalmond;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 22px;
+    text-shadow: 1px 1px 2px #000;
+    margin:20px 0 5px 25px;
+}
+.playAudio{
+    margin-top: -55px;
+}
+.playVideo{
+    margin-top: 30px;
+}
+.track{
+    padding-bottom: 7px;
+}
+.audio, .video{
+    width: 100%;
+}

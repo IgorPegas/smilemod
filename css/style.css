@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,400&display=swap');
+
+@import url('block/head.css');
+@import url('block/gallery.css');
+@import url('block/midle.css');
+@import url('block/footer.css');
+@import url('block/line.css');
+@import url('block/slide.css');
+
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    max-width: 100%;
+    background-color: rgb(29, 57, 82);
+}
+.bodys img{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.main{
+    flex-grow: 1;
+}
+
+
